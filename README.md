@@ -44,6 +44,8 @@ Enter sandbox mode during lessons with the option: 2) Sandbox Mode
 Type exit to return to the lesson
 
 
+You can alo run this one excutable command
+cd ~ && git clone https://github.com/Windowseven/linux-buddy-cyberlabs.git && cd linux-buddy-cyberlabs && chmod +x linuxbuddy.sh && ./linuxbuddy.sh
 
 ---
 
