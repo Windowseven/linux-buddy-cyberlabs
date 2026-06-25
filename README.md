@@ -1,81 +1,48 @@
+# linux-buddy-cyberlabs 🐧
 
-**Linux Buddy** is an interactive command-line toolkit designed to teach Linux commands from beginner to advanced levels in a safe, structured, and fun way.  
-Created and maintained by **Windowseven** 🇹🇿
+**Interactive CLI toolkit for learning Linux commands — by Windowseven CyberLabs**
 
----
+An educational command-line tool that helps students and beginners learn Linux through hands-on, interactive exercises. Built for cybersecurity learners, CS students, and anyone getting started with Linux.
 
-## Features
+## Purpose
 
-- Step-by-step lessons from beginner to pro  
-- Sandbox mode for safe experimentation with commands  
-- XP tracking and badges to gamify learning  
-- Assignments for each command to reinforce knowledge  
-- Friendly tips and motivational guidance throughout lessons  
-- It has got swahili explanation for more understanding the commands
----
+Most Linux tutorials are passive — you read, you forget. linux-buddy makes it active: you run the tool, it gives you scenarios, you type real commands, it validates them.
 
-## Installation (Termux / Linux)
+## Use Cases
 
-1. **Install dependencies (Termux only):**
+- 🎓 CS students learning Linux for the first time
+- 🔐 Cybersecurity beginners building command-line fluency
+- 👨‍💻 Developers switching from Windows/Mac to Linux
+- 📚 Self-paced Linux certification prep
+
+## Getting Started
+
 ```bash
-pkg install figlet lolcat -y
+# Clone the repository
+git clone https://github.com/Windowseven/linux-buddy-cyberlabs.git
+cd linux-buddy-cyberlabs
 
-2. Make the main script executable:
+# Make executable
+chmod +x linux-buddy.sh
 
+# Run
+./linux-buddy.sh
+```
 
+## Requirements
 
-chmod +x linuxbuddy.sh
+- Linux or macOS terminal (or WSL on Windows)
+- Bash shell
 
-3. Run Linux Buddy:
+## Topics Covered
 
+- File system navigation (`ls`, `cd`, `pwd`, `find`)
+- File operations (`cp`, `mv`, `rm`, `chmod`)
+- Process management (`ps`, `kill`, `top`)
+- Networking basics (`ping`, `netstat`, `curl`)
+- Text processing (`grep`, `awk`, `sed`)
 
+## Built By
 
-./linuxbuddy.sh
-
-
----
-
-Sandbox Mode
-
-Folder: linuxbuddy_sandbox/
-
-Enter sandbox mode during lessons with the option: 2) Sandbox Mode
-
-Type exit to return to the lesson
-
-
-You can alo run this one excutable command
-cd ~ && git clone https://github.com/Windowseven/linux-buddy-cyberlabs.git && cd linux-buddy-cyberlabs && chmod +x linuxbuddy.sh && ./linuxbuddy.sh
-
----
-
-Progress Tracking
-
-Completed commands and XP are stored in: linuxbuddy_progress.txt
-
-Badges display the user’s advancement level
-
-Lessons are structured from beginner to advanced for gradual learning
-
-
-
----
-
-Contact / Support
-
-WhatsApp: +255766183998
-
-WhatsApp Group: https://chat.whatsapp.com/LBQRjmjYNDLJdnwRzrnFaP?mode=wwc
-
-For questions or support, message Windowseven privately
-
-
-
----
-
-License
-
-This project is licensed under the MIT License — see the LICENSE file for details.
-
----
-
+**Junior L. Malimi** — Windowseven CyberLabs, Dar es Salaam, Tanzania  
+🌐 [Portfolio](https://my-portifolio-qk1s.onrender.com/)
